@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -7,11 +9,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  margin-bottom: 1000px;
 }
 
 .header {
-  background-color: ;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,10 +54,6 @@ a:link {
   
 }
 
-.video {
-  flex-shrink: 0;
-}
-
 .about-us {
   display: flex;
   background-color: #1F2937;
@@ -83,6 +79,11 @@ a:link {
   padding: 12px 20px 12px 20px ;
   border-radius: 12px;
   border:none;
+  flex-shrink: 0;
+}
+
+.video:hover {
+  cursor: pointer;
 }
 
 .box {
@@ -133,9 +134,9 @@ a:link {
 .title-q {
   display: flex;
   font-size: 40px;
-  color: white;
+  color: #1F2937;
   justify-content: center;
-  background-color: #1F2937;
+  background-color: #E5E7EB;
   padding: 40px 0 40px 0;
   text-decoration: underline;
 }
@@ -143,8 +144,8 @@ a:link {
 .quote {
   font-size: 48px;
   font-style: italic;
-  color: lightgray;
-  background-color: #1F2937;
+  color: #1F2937;
+  background-color: #E5E7EB;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,4 +165,51 @@ a:link {
 .quote,.qq {
   padding-top: 0;
   padding-bottom: 50px;
+}
+
+.sign-up {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0 200px 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width:1000px;
+  background-color: #3882F6;
+  padding: 0px 50px 0px 50px;
+  margin: -10px 0px -10px 0px;
+  border-radius: 10px;
+
+}
+
+.text {
+  color: white;
+}
+
+.su {
+ 
+  padding: 12px 20px 12px 20px ;
+  border-radius: 12px;
+  border: 2px solid white;
+  background-color: #3882F6;
+  color: white;
+}
+
+.su:hover {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  height: 100px;
 }
