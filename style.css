@@ -3,6 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  margin-bottom: 1000px;
 }
 
 .header {
@@ -78,5 +79,41 @@ a:link {
   padding: 12px 20px 12px 20px ;
   border-radius: 12px;
   border:none;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  border-color: black;
+  border: solid 10px;
+  flex:1 0 0;
+  flex-wrap: wrap;
+  display: flex;
+  max-width: 200px;
+}
+
+.cat-c {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: space-around;
+  align-items: center;
   
+}
+
+.categories {
+  margin: 100px 150px 100px 150px;
+
+}
+
+.title-c {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 40px;
 }
